@@ -387,8 +387,8 @@ public class AddMovie extends javax.swing.JFrame {
         
         storeItems.add(newMovies);
         ObjToFile theFile = new ObjToFile();
-       theFile.openFile();
-       for(StoreItem item: storeItems)
+        theFile.openFile();
+        for(StoreItem item: storeItems)
        theFile.writeRecord(item);
        theFile.closeFile();
                 
